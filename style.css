@@ -93,7 +93,7 @@ button:focus-visible {
 .patreon-img {
 	position: fixed;
 	top: 1em;
-	left: 5em;
+	right: 5em;
 	background-image: url("./images/Digital-Patreon-Logo_FieryCoral.png");
 	background-position: center;
 	background-size: 80%;
@@ -117,6 +117,17 @@ button:focus-visible {
 	top: 1em;
 	right: 1em;
 	background-image: url("./images/github-mark-white.png");
+	background-position: center;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	height: 3em;
+	width: 3em;
+}
+.mastodon-img {
+	position: fixed;
+	top: 1em;
+	left: 5em;
+	background-image: url("./images/mastodon-purple.png");
 	background-position: center;
 	background-size: 80%;
 	background-repeat: no-repeat;
@@ -182,7 +193,7 @@ a.link:focus,
 a.link:focus-visible {
 	outline: 4px auto -webkit-focus-ring-color;
 }
-a.link:not(.patreon-img):not(.discord-img):not(.github-img) {
+a.link:not(.patreon-img):not(.discord-img):not(.github-img):not(.mastodon-img) {
 	padding: 0.5em;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
